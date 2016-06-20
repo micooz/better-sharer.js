@@ -1,8 +1,8 @@
 {
   "name": "better-sharer.js",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Create custom social share DOM elements. No dependencies.",
-  "main": "dist/sharer.min.js",
+  "main": "sharer.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/micooz/better-sharer.js.git"
