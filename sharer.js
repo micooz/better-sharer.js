@@ -306,9 +306,9 @@
 
   };
 
-  window.addEventListener('load', Sharer.init);
+  window.addEventListener('DOMContentLoaded', new Sharer().init);
 
-  if (module && typeof module.exports !== 'undefined') {
+  if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
     module.exports = Sharer;
   } else {
     window.Sharer = Sharer;

@@ -40,11 +40,13 @@
     "url": "https://github.com/micooz/better-sharer.js/issues"
   },
   "scripts": {
-    "compress": "uglifyjs sharer.js --compress --mangle --comments > dist/sharer.min.js"
+    "compress": "uglifyjs sharer.js --compress --mangle --comments > dist/sharer.min.js",
+    "deploy": "gh-pages -d dist"
   },
   "homepage": "https://micooz.github.io/better-sharer.js/",
   "devDependencies": {
-    "uglifyjs": "^2.4.10",
-    "eslint": "^1.10.3"
+    "eslint": "^1.10.3",
+    "gh-pages": "^0.11.0",
+    "uglifyjs": "^2.4.10"
   }
 }
