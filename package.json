@@ -1,6 +1,6 @@
 {
   "name": "better-sharer.js",
-  "version": "0.2.15",
+  "version": "0.3.0",
   "description": "Create custom social share DOM elements. No dependencies.",
   "main": "dist/sharer.min.js",
   "repository": {
