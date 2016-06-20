@@ -1,15 +1,4 @@
-/**
- * @preserve
- * Sharer.js
- *
- * @description Create your own social share buttons
- * @version 0.2.15
- * @author Ellison Leao <ellisonleao@gmail.com>
- * @license GPLv3
- *
- */
-
-(function (window, document) {
+(function () {
   'use strict';
 
   /**
@@ -306,12 +295,11 @@
 
   };
 
-  window.addEventListener('DOMContentLoaded', new Sharer().init);
-
   if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
     module.exports = Sharer;
   } else {
     window.Sharer = Sharer;
+    window.addEventListener('DOMContentLoaded', new Sharer().init);
   }
 
-})(window, document);
+})();
