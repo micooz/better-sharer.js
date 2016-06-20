@@ -1,11 +1,11 @@
 {
-  "name": "sharer.js",
+  "name": "better-sharer.js",
   "version": "0.2.15",
   "description": "Create custom social share DOM elements. No dependencies.",
-  "main": "sharer.js",
+  "main": "sharer.min.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ellisonleao/sharer.js.git"
+    "url": "git+https://github.com/micooz/better-sharer.js.git"
   },
   "keywords": [
     "social",
@@ -37,13 +37,12 @@
   "author": "Ellison Leão <ellisonleao@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ellisonleao/sharer.js/issues"
+    "url": "https://github.com/micooz/better-sharer.js/issues"
   },
   "scripts": {
-    "test": "eslint sharer.js",
-    "compress": "uglifyjs sharer.js --compress --mangle --comments > sharer.min.js"
+    "compress": "uglifyjs sharer.js --compress --mangle --comments > dist/sharer.min.js"
   },
-  "homepage": "https://ellisonleao.github.io/sharer.js/",
+  "homepage": "https://micooz.github.io/better-sharer.js/",
   "devDependencies": {
     "uglifyjs": "^2.4.10",
     "eslint": "^1.10.3"
